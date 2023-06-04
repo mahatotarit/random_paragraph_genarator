@@ -1,0 +1,76 @@
+*{
+    margin: 00px;
+    padding: 00px;
+    box-sizing: border-box;
+}
+.main h2{
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    font-style: italic;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}  
+
+.box{
+    width: 80%;
+    margin: 00px auto;
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#sedond_row{
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding:10px 10px 10px 10px;
+    display: none;
+    flex-direction: column;
+}
+.box .row1{
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+.box form label , input , button{
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+}
+.box form label {
+   font: 20px;
+}
+.box form input {
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgb(148, 148, 148);
+    width: 30%;
+    padding: 5px;
+    margin-right: 10px;
+}
+.box form button{
+    background-color: rgb(135, 247, 255);
+    border-radius: 5px;
+    border-color: rgb(221, 221, 221);
+}
+#copy_btn{
+    border-radius: 5px;
+    border-color: wheat ;
+    position: relative;
+    margin-left: auto;
+    margin-bottom: auto;
+    padding: 02px;
+    font-size: 13px;
+}
+
+@media (max-width:450px){
+    .box{
+        width: 98%;
+    }
+}
+
+#text_p{
+    text-align: left;
+}
